@@ -1,0 +1,65 @@
+body {
+  font-size: 30px;
+}
+
+.trigger {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.colorred {
+  color: red;
+}
+
+.disappear {
+  display: none;
+}
+
+.task-item {
+  background-color: #CCC;
+  width: 300px;
+  height: 30px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.task-item:nth-child(even) {
+  background-color: #333;
+  color: white;
+}
+
+#todo-text {
+  margin-top: 50px;
+  font-size: 26px;
+}
+
+.red-line {
+  width: 300px;
+  height: 2px;
+  background-color: red;
+  margin: 30px 0;
+}
+
+#val1, #val2, .btn, #keyMonitor, .bubble-btn {
+  font-size: 30px;
+}
+
+#result {
+  background-color: #ccc;
+  font-size: 50px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.btn-wrapper {
+  margin-top: 10px;
+}
+
+.bubble {
+  margin-top: 30px;
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  display: grid;
+  place-items: center;
+}
